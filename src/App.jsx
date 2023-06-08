@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import "./assets/css/reset.css";
 import "./assets/css/utility.css";
 import "./assets/css/icons.css";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
