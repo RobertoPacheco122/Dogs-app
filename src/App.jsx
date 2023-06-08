@@ -7,7 +7,7 @@ import "./assets/css/reset.css";
 import "./assets/css/utility.css";
 import "./assets/css/icons.css";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <BrowserRouter>
@@ -18,6 +18,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
