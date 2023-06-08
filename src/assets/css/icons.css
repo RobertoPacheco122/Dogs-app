@@ -1,0 +1,10 @@
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.icon--user {
+  background-image: url("../img/icons/usuario.svg");
+}
