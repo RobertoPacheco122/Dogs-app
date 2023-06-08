@@ -1,12 +1,16 @@
 :root {
   --default-font: Helvetica, Arial, sans-serif;
   --second-font: "Spectral", Georgia;
-  --color-default-font: #333;
+
+  --header-bg-color: #ffffff;
+  --home-bg-color: #ffffff;
+  --footer-bg-color: #fb1;
+  --font-default-color: #333;
 }
 
 .app {
   font-family: var(--default-font);
-  color: var(--color-default-font);
+  color: var(--font-default-color);
 }
 
 .container {
