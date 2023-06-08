@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "visualizations": "532",
+    "image": "src/assets/img/posts/dog1.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Joel",
+      "weight": 10,
+      "age": 12
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Muito lindo!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "visualizations": "199",
+    "image": "src/assets/img/posts/dog2.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Ellie",
+      "weight": 4,
+      "age": 12
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Gostei do fundo"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "visualizations": "43586",
+    "image": "src/assets/img/posts/dog3.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Ellie",
+      "weight": 4,
+      "age": 5
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "O cabelo está lindo"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "visualizations": "19542",
+    "image": "src/assets/img/posts/dog4.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Ashley",
+      "weight": 3,
+      "age": 8
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "visualizations": "21587",
+    "image": "src/assets/img/posts/dog5.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Yara",
+      "weight": 5,
+      "age": 3
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "visualizations": "31583",
+    "image": "src/assets/img/posts/dog6.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Dina",
+      "weight": 3,
+      "age": 6
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "visualizations": "4700",
+    "image": "src/assets/img/posts/dog7.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Lev",
+      "weight": 12,
+      "age": 4
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "visualizations": "6635",
+    "image": "src/assets/img/posts/dog8.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Joel",
+      "weight": 5,
+      "age": 4
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "visualizations": "69",
+    "image": "src/assets/img/posts/dog9.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Ellie",
+      "weight": 3,
+      "age": 12
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "visualizations": "69",
+    "image": "src/assets/img/posts/dog10.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Sam",
+      "weight": 8,
+      "age": 10
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "visualizations": "69",
+    "image": "src/assets/img/posts/dog11.jpg",
+    "who-posted": "cat",
+    "dog": {
+      "name": "Dina",
+      "weight": 7,
+      "age": 4
+    },
+    "comments": [
+      {
+        "who_commented": "cat",
+        "comment": "Que belo olhar"
+      }
+    ]
+  }
+]
