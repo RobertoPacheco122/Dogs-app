@@ -1,0 +1,27 @@
+.imageContainer {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.dogImage {
+  border-radius: 0.3rem;
+  grid-area: 1/1;
+}
+
+.visualizations {
+  color: #ffffff;
+  grid-area: 1/1;
+  display: none;
+}
+
+.visualizations::before {
+  content: "";
+  background-image: url("../assets/img/icons/visualizacao.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 0.3rem;
+}
