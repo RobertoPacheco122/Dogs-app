@@ -1,5 +1,6 @@
 .main {
   padding: 2rem 0px;
+  background-color: var(--home-bg-color);
 }
 
 .mainList {
