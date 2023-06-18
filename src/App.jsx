@@ -7,6 +7,7 @@ import "./assets/css/reset.css";
 import "./assets/css/utility.css";
 import "./assets/css/icons.css";
 import Footer from "./Components/Footer";
+import Login from "./Components/Login/Login";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/login/*" element={<Login />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
