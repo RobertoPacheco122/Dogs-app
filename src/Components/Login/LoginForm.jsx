@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Login.module.css";
 import { Link } from "react-router-dom";
+import Input from "../Forms/Input";
+import Button from "../Forms/Button";
 
 export const LoginForm = () => {
   const [user, setUser] = React.useState("");
@@ -16,31 +18,19 @@ export const LoginForm = () => {
           <section className={styles.loginSection}>
             <h1 className={styles.title}>Login</h1>
             <form>
-              <div className={styles.containerInput}>
-                <label className={styles.label} htmlFor="userName">
-                  Usuário
-                </label>
-                <input
-                  className={styles.inputPassword}
-                  type="text"
-                  name="userName"
-                  id="userName"
-                  onChange={({ target }) => setUser(target.value)}
-                />
-              </div>
-              <div className={styles.containerInput}>
-                <label className={styles.label} htmlFor="userPassword">
-                  Senha
-                </label>
-                <input
-                  className={styles.inputPassword}
-                  type="password"
-                  name="userPassword"
-                  id="userPassword"
-                  onChange={({ target }) => setPassword(target.value)}
-                />
-              </div>
-              <button className={styles.button}>Entrar</button>
+              <Input
+                labelName="Usuário"
+                name="username"
+                type="text"
+                onChange={({ target }) => setUser(target.value)}
+              />
+              <Input
+                labelName="Senha"
+                name="password"
+                type="password"
+                onChange={({ target }) => setPassword(target.value)}
+              />
+              <Button>Entrar</Button>
             </form>
             <Link className={`link ${styles.link}`} to="/login/recuperar">
               Perdeu a senha? Clique aqui.
@@ -51,7 +41,7 @@ export const LoginForm = () => {
             <p className={styles.text}>
               Ainda não possui conta? Cadastre-se no site.
             </p>
-            <Link className={`${styles.button} link`} to="/login/cadastrar">
+            <Link className="button link" to="/login/cadastrar">
               Cadastro
             </Link>
           </section>

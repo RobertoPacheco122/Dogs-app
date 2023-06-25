@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Login.module.css";
+import Input from "../Forms/Input";
+import Button from "../Forms/Button";
 
 const LoginPasswordRegister = () => {
   const [user, setUser] = React.useState("");
@@ -11,49 +13,31 @@ const LoginPasswordRegister = () => {
       <div className={`container`}>
         <h1 className={styles.title}>Cadastre-se</h1>
         <form>
-          <div className={styles.containerInput}>
-            <label className={styles.label} htmlFor="userName">
-              Usuário
-            </label>
-            <input
-              className={styles.inputPassword}
-              type="text"
-              name="userName"
-              id="userName"
-              onChange={({ target }) => {
-                setUser(target.value);
-              }}
-            />
-          </div>
-          <div className={styles.containerInput}>
-            <label className={styles.label} htmlFor="userEmail">
-              E-mail
-            </label>
-            <input
-              className={styles.inputPassword}
-              type="email"
-              name="userName"
-              id="userName"
-              onChange={({ target }) => {
-                setEmail(target.value);
-              }}
-            />
-          </div>
-          <div className={styles.containerInput}>
-            <label className={styles.label} htmlFor="userPassword">
-              Senha
-            </label>
-            <input
-              className={styles.inputPassword}
-              type="password"
-              name="userPassword"
-              id="userPassword"
-              onChange={({ target }) => {
-                setPassword(target.value);
-              }}
-            />
-          </div>
-          <button className={styles.button}>Cadastrar</button>
+          <Input
+            labelName="Usuário"
+            name="username"
+            type="text"
+            onChange={({ target }) => {
+              setUser(target.value);
+            }}
+          />
+          <Input
+            labelName="E-mail"
+            name="email"
+            type="email"
+            onChange={({ target }) => {
+              setEmail(target.value);
+            }}
+          />
+          <Input
+            labelName="Senha"
+            name="password"
+            type="password"
+            onChange={({ target }) => {
+              setPassword(target.value);
+            }}
+          />
+          <Button>Cadarstar</Button>
         </form>
       </div>
     </main>
