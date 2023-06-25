@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Login.module.css";
-import Input from "../Forms/Input";
-import Button from "../Forms/Button";
+import Input from "../../Forms/Input";
+import Button from "../../Forms/Button";
 
 const LoginPasswordRecover = () => {
   const [emailOrUser, setEmailOrUser] = React.useState("");

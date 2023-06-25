@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./Components/Home";
-import Header from "./Components/Header";
 import "./assets/css/reset.css";
 import "./assets/css/utility.css";
 import "./assets/css/icons.css";
+import Home from "./Components/pages/Home/Home";
+import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import Login from "./Components/Login/Login";
+import Login from "./Components/pages/Login/Login";
 
 const App = () => {
   return (
